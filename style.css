@@ -1,1 +1,56 @@
+:root {
+    --tech-primary: #142d4c ;
+    --tech-secondary: #ececec;
+    --tech-dark: #9fd3c7;
+    --tech-light: #eff0f4;
 
+}
+
+body{
+    background-color: var(--tech-secondary);
+    color: var(--tech-primary);
+}
+
+.navbar{
+    background-color: var(--tech-secondary);
+    color: var(--tech-dark);
+}
+.nav-link:hover{
+    color: var(--tech-dark);
+}
+.nav-item:active{}
+.hero{
+    margin-top: 100px;
+}
+#blog, #contato, .bg-light{
+    background-color: var(--tech-secondary) !important;
+}
+
+.card{
+    background-color: var(--tech-primary);
+    color: var(--tech-dark);
+}
+.accordion-button{
+    background-color: var(--tech-secondary);
+    border: var(--tech-primary) 1px solid;
+    border-radius: 1px;
+}
+.accordion-button:not(.collapsed), .accordion-item:hover, .accordion-item:active, .accordion-body{
+    background-color: var(--tech-secondary);
+    border-color: var(--tech-primary);
+    color: var(--tech-primary);
+}
+.btn-outline-primary, .btn-light, .btn-primary{
+    background-color: var(--tech-primary);
+    color: var(--tech-dark);
+    border-color: var(--tech-dark);
+}
+.btn-outline-primary:hover, .btn-light:hover, .btn-primary:hover{
+    color: var(--tech-primary);
+    border-color: var(--tech-light);
+    background-color: var(--tech-dark);
+}
+.form-control, .form-control:focus{
+    background-color: var(--tech-secondary);
+    border-color: var(--tech-primary);
+}
